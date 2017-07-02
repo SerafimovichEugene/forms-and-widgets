@@ -9,10 +9,63 @@
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
     <link href="./css/calendar.css" rel="stylesheet">
+    <link href="./css/booking.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <div id="booking">
+        <div class="place">
+            <img src="./img/hotel relais.png" alt="hotel relais">
+            <p class="name">Hotel Relais</p>
+            <p class="where"><i class="fa fa-map-marker" aria-hidden="true"></i> Paris, France</p>
+        </div>
+        <form>
+            <fieldset>
+                <label for="checkIn">Check in</label>
+                <div class="custom-input">
+                    <input id="checkIn" type="text" name="check_in" placeholder="9 July, 2016">
+                    <div class="btn-calendar vertically-centered">
+                        <img class="vertically-horizontally-centered" src="./img/calendar icon.png" alt="calendar icon">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="checkOut">Check out</label>
+                <div class="custom-input">
+                    <input id="checkOut" type="text" name="check_out" placeholder="16 July, 2016">
+                    <div class="btn-calendar vertically-centered">
+                        <img class="vertically-horizontally-centered" src="./img/calendar icon.png" alt="calendar icon">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" class="checkbox" id="checkbox" />
+                <label for="checkbox">Flexible dates</label>
+            </fieldset>
+            <fieldset>
+                <div class="select-wrapper">
+                    <p>Adult</p>
+                    <select>
+                        <option>1</option>
+                        <option selected>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                 <div class="select-wrapper right">
+                    <p>Children</p>
+                    <select>
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <br>
     <div id="calendar">
         <div class="top-panel">
             <a href="" class="left-arrow vertically-centered"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>

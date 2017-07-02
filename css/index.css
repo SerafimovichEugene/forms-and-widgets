@@ -23,6 +23,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.right {
+    float: right;
+}
+
 button {
     background: #fb6362;
     border-radius: 4px;
