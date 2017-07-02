@@ -1,0 +1,30 @@
+body {
+    background: #d9d9d9;
+    font-family: 'Gotham';
+    margin-top: 0;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham Book Regular.otf');
+}
+
+.vertically-centered {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.vertically-horizontally-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background: #fb6362;
+    border-radius: 4px;
+    border-width: 0;
+}

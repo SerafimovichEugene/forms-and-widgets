@@ -1,0 +1,99 @@
+ #calendar {
+     display: block;
+     margin: 0 auto;
+     height: 425px;
+     width: 345px;
+     background: #ffffff;
+     border-radius: 4px;
+ }
+
+ #calendar .top-panel {
+     display: block;
+     position: relative;
+     height: 62px;
+     background: #404a58;
+     color: #ffffff;
+     border-top-left-radius: 4px;
+     border-top-right-radius: 4px;
+ }
+
+ #calendar .top-panel .left-arrow {
+     color: inherit;
+     left: 36px;
+     font-size: 10pt;
+ }
+
+ #calendar .top-panel .right-arrow {
+     color: inherit;
+     right: 36px;
+     font-size: 10pt;
+ }
+
+ #calendar .top-panel .left-arrow:hover,
+ #calendar .top-panel .right-arrow:hover {
+     color: #f25b1c;
+ }
+
+ #calendar .top-panel .month {
+     font-size: 14pt;
+ }
+
+ .table {
+     display: table;
+     width: 287px;
+     margin: 0 auto;
+     margin-top: 14px;
+     font-size: 11pt;
+     font-weight: 600;
+     text-align: center;
+     color: #666666;
+ }
+
+ .days,
+ .numbers {
+     display: table-row;
+ }
+
+ .day,
+ .number {
+     display: table-cell;
+     width: 41px;
+     height: 41px;
+     vertical-align: middle;
+     color: #666666;
+     text-decoration: none;
+ }
+
+ .important-day {
+     color: #fb6362;
+ }
+
+ .another-month-day {
+     color: #c5c5c5;
+ }
+
+ .current-day {
+     background: #fb6362;
+     color: #ffffff;
+     border-radius: 20px;
+ }
+
+ .btn-add-event {
+     display: block;
+     margin: 0 auto;
+     width: 300px;
+     height: 58px;
+     margin-top: 22px;
+     text-transform: uppercase;
+     color: #ffffff;
+     font-size: 12pt;
+     -webkit-box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.25);
+     -moz-box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.25);
+     box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .btn-add-event:hover {
+     -webkit-box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.45);
+     -moz-box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.45);
+     box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.45);
+ }
