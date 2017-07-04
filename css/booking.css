@@ -2,7 +2,7 @@
     display: block;
     margin: 0 auto;
     width: 346px;
-    height: 700px;
+    height: 625px;
     background: #ffffff;
     border-radius: 4px;
 }
@@ -146,11 +146,17 @@
     height: 44px;
     border: 1px solid #e5e5e5;
     border-radius: 2px;
-    padding: 5px 35px 5px 5px;
+    padding: 5px 35px 5px 15px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(../img/select_icon.png) 98% / 28% no-repeat #eee;
+    background: url(../img/select_icon.png) 98% / 28% no-repeat #f4f4f4;
     font-size: 14pt;
+    font-family: 'Gotham';
+    font-weight: 500;
+}
+
+#booking .btn-action {
+    margin-top: 38px;
     font-family: 'Gotham';
     font-weight: 500;
 }

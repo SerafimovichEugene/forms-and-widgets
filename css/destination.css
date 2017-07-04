@@ -1,0 +1,134 @@
+#destination {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 791px;
+    height: 340px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+#destination ul {
+    float: left;
+    width: 72px;
+    margin: 0;
+    padding-left: 0;
+    height: 100%;
+    background: #404a58;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#destination ul li {
+    position: relative;
+    display: block;
+    height: 33.333333%;
+    cursor: pointer;
+}
+
+#destination ul li:first-child {
+    border-bottom: 1px solid #242931;
+}
+
+#destination ul li:last-child {
+    border-top: 1px solid #242931;
+}
+
+#destination ul li i {
+    color: #ffffff;
+    font-size: 20pt;
+}
+
+#destination .active {
+    background: #fb6362;
+}
+
+#destination .content-wrapper {
+    float: left;
+    width: 356px;
+    height: 100%;
+    background: #ffffff;
+}
+
+#destination .content {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+#destination .content h3 {
+    font-size: 16pt;
+    line-height: 150%;
+    width: 195px;
+    color: #4d4d4d;
+    margin-bottom: 10px;
+}
+
+#destination .reviews {
+    margin-top: 10px;
+    color: #999999;
+}
+
+#destination .reviews-num {
+    color: #4d4d4d;
+}
+
+#destination .content .description {
+    margin-top: 30px;
+    width: 277px;
+    color: #d9d9d9;
+    line-height: 130%;
+    font-size: 11pt;
+}
+
+#destination .content a {
+    font-size: 11pt;
+    text-decoration: none;
+    color: #fb6362;
+}
+
+#destination .triangles {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    left: 428px;
+}
+
+#destination .triangles .triangle {
+    position: relative;
+    display: block;
+    height: 33.333333%;
+}
+
+#destination .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 22px 0 22px 22px;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+#destination img {
+    float: left;
+    width: 363px;
+    height: 340px;
+}
+
+#destination .counters {
+    position: absolute;
+    right: 14px;
+    top: 295px;
+    color: #ffffff;
+    font-size: 18pt;
+}
+
+#destination .counters .comments,
+#destination .counters .likes {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#destination .counters .comments-counter,
+#destination .counters .likes-counter {
+    font-weight: 300;
+    font-size: 13pt;
+}

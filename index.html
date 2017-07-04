@@ -10,10 +10,51 @@
     <link href="./css/index.css" rel="stylesheet">
     <link href="./css/calendar.css" rel="stylesheet">
     <link href="./css/booking.css" rel="stylesheet">
+    <link href="./css/destination.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <br>
+    <div id="destination">
+        <ul>
+            <li class="active"><i class="fa fa-eye vertically-horizontally-centered" aria-hidden="true"></i></li>
+            <li><i class="fa fa-map-marker vertically-horizontally-centered" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star vertically-horizontally-centered" aria-hidden="true"></i></li>
+        </ul>
+        <div class="content-wrapper">
+            <div class="content">
+                <h3>My most favourite place in the world</h3>
+                <p class='reviews'><span class='reviews-num'>154</span> Reviews</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ex voluptatum alias reprehenderit soluta, a
+                    minus facere obcaecati placeat enim quae, totam aliquam perferendis</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="triangles">
+            <div class="triangle">
+                <div class="arrow vertically-centered"></div>
+            </div>
+            <div class="triangle">
+                <div class="arrow vertically-centered" hidden></div>
+            </div>
+            <div class="triangle">
+                <div class="arrow vertically-centered" hidden></div>
+            </div>
+        </div>
+        <img src="./img/destination_1.jpg" alt="">
+        <div class="counters">
+            <div class="comments">
+                <i class="fa fa-comment" aria-hidden="true"></i>
+                <span class="comments-counter"> 752</span>
+            </div>
+            <div class="likes">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <span class="likes-counter"> 2709</span>
+            </div>
+        </div>
+    </div>
+    <br>
     <div id="booking">
         <div class="place">
             <img src="./img/hotel relais.png" alt="hotel relais">
@@ -53,7 +94,7 @@
                         <option>4</option>
                     </select>
                 </div>
-                 <div class="select-wrapper right">
+                <div class="select-wrapper right">
                     <p>Children</p>
                     <select>
                         <option selected>1</option>
@@ -64,6 +105,7 @@
                 </div>
             </fieldset>
         </form>
+        <button class="btn-action"><i class="fa fa-search" aria-hidden="true"></i> search rooms</button>
     </div>
     <br>
     <div id="calendar">
@@ -128,7 +170,7 @@
                 <a href="" class="number another-month-day">2</a>
             </div>
         </div>
-        <button class="btn-add-event">add event</button>
+        <button class="btn-action">add event</button>
     </div>
 </body>
 
