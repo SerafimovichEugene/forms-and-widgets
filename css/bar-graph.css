@@ -1,0 +1,85 @@
+#bar-graph {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 791px;
+    height: 340px;
+    background: #ffffff;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+#bar-graph .row {
+    display: block;
+    margin: 53px 46px 0 41px;
+    font-size: 9pt;
+    border-bottom: 1px solid #eaeaea;
+    color: #666666;
+}
+
+#bar-graph .row p {
+    margin-bottom: 2px;
+}
+
+#bar-graph .columns {
+    position: absolute;
+    height: 275px;
+    right: 0;
+    left: 104px;
+    top: 0;
+}
+
+#bar-graph .columns .column {
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    width: 55px;
+    background: #fb6362;
+    border-radius: 4px;
+}
+
+#bar-graph .columns .column p {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9pt;
+    color: #666666;
+}
+
+#bar-graph .columns .mon {
+    
+    left: 0;
+    transition: height 3s ease;
+    height: 30px;    
+}
+
+#bar-graph .columns .tues {
+    left: 90px;
+    height: 55px;
+}
+
+#bar-graph .columns .wed {
+    left: 180px;
+    height: 55px;
+}
+
+#bar-graph .columns .thu {
+    left: 270px;
+    height: 55px;
+}
+
+#bar-graph .columns .fri {
+    left: 360px;
+    height: 55px;
+}
+
+#bar-graph .columns .sat {
+    left: 450px;
+    height: 55px;
+}
+
+#bar-graph .columns .sun {
+    left: 540px;
+    height: 55px;
+}
