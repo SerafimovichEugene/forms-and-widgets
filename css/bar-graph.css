@@ -23,19 +23,17 @@
 
 #bar-graph .columns {
     position: absolute;
-    height: 275px;
+    height: 277px;
     right: 0;
     left: 104px;
     top: 0;
 }
 
 #bar-graph .columns .column {
-    height: 0;
+    height: 100%;
     position: absolute;
     bottom: 0;
     width: 55px;
-    background: #fb6362;
-    border-radius: 4px;
 }
 
 #bar-graph .columns .column p {
@@ -48,38 +46,81 @@
 }
 
 #bar-graph .columns .mon {
-    
     left: 0;
-    transition: height 3s ease;
-    height: 30px;    
 }
 
 #bar-graph .columns .tues {
     left: 90px;
-    height: 55px;
 }
 
 #bar-graph .columns .wed {
     left: 180px;
-    height: 55px;
 }
 
 #bar-graph .columns .thu {
     left: 270px;
-    height: 55px;
 }
 
 #bar-graph .columns .fri {
     left: 360px;
-    height: 55px;
 }
 
 #bar-graph .columns .sat {
     left: 450px;
-    height: 55px;
 }
 
 #bar-graph .columns .sun {
     left: 540px;
-    height: 55px;
+}
+
+.inner-mon,
+.inner-tues,
+.inner-wed,
+.inner-thu,
+.inner-fri,
+.inner-sat,
+.inner-sun {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #fb6362;
+    border-radius: 4px;
+    transition: height 1s ease;
+}
+
+.column-value {
+    bottom: 0;
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    transition: margin 1s ease;
+}
+
+.column-value-mon,
+.column-value-tues,
+.column-value-wed,
+.column-value-thu,
+.column-value-fri,
+.column-value-sat,
+.column-value-sun {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    background: #404a58;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#bar-graph .columns .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-style: solid;
+    border-width: 10px 6px 0 6px;
+    border-color: #404a58 transparent transparent transparent;
 }
