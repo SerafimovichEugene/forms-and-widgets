@@ -55,23 +55,6 @@
 
 #booking .custom-input {
     margin-top: 10px;
-    position: relative;
-    width: 100%;
-    height: 44px;
-}
-
-#booking .custom-input input {
-    position: absolute;
-    width: 100%;
-    height: 44px;
-    padding-left: 14px;
-    border: 1px solid #e5e5e5;
-    border-radius: 2px;
-    background: #f4f4f4;
-    color: #999898;
-    font-family: 'Gotham';
-    font-size: 11pt;
-    font-weight: 500;
 }
 
 #booking .custom-input input:focus {
@@ -81,17 +64,12 @@
     box-shadow: 0px 0px 5px 5px rgba(51, 144, 238, 0.23);
 }
 
-#booking .custom-input .btn-calendar {
-    position: absolute;
-    height: 36px;
-    width: 36px;
-    right: 5px;
+#booking .custom-input .btn-in-input {
     background: #414b59;
     border-radius: 2px;
 }
 
-#booking .custom-input .btn-calendar:hover {
-    background: #f25b1c;
+#booking .custom-input .btn-in-input:hover {
     cursor: pointer;
 }
 

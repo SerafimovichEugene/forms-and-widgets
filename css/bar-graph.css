@@ -113,6 +113,7 @@
     color: #ffffff;
     border-radius: 4px;
     text-align: center;
+    font-size: 9pt;
 }
 
 #bar-graph .columns .triangle {
@@ -123,6 +124,6 @@
     left: 50%;
     transform: translate(-50%, 0);
     border-style: solid;
-    border-width: 10px 6px 0 6px;
+    border-width: 6px 6px 0 6px;
     border-color: #404a58 transparent transparent transparent;
 }
