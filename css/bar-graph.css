@@ -107,10 +107,12 @@
     position: absolute;
     top: 0;
     height: 30px;
+    line-height: 30px;
     width: 100%;
     background: #404a58;
     color: #ffffff;
     border-radius: 4px;
+    text-align: center;
 }
 
 #bar-graph .columns .triangle {
