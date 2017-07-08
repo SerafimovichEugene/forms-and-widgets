@@ -57,13 +57,6 @@
     margin-top: 10px;
 }
 
-#booking .custom-input input:focus {
-    outline: none;
-    -webkit-box-shadow: 0px 0px 5px 5px rgba(51, 144, 238, 0.23);
-    -moz-box-shadow: 0px 0px 5px 5px rgba(51, 144, 238, 0.23);
-    box-shadow: 0px 0px 5px 5px rgba(51, 144, 238, 0.23);
-}
-
 #booking .custom-input .btn-in-input {
     background: #414b59;
     border-radius: 2px;
