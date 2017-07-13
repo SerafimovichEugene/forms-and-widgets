@@ -36,7 +36,7 @@
 }
 
 #booking form {
-    width: 298px;
+    width: 296px;
     margin: 0 auto;
     color: #666666;
 }
@@ -44,7 +44,7 @@
 #booking form fieldset {
     margin: 0;
     padding: 0;
-    margin-top: 23px;
+    margin-top: 22px;
     border: 0;
 }
 
@@ -54,10 +54,16 @@
 }
 
 #booking .custom-input {
-    margin-top: 10px;
+    margin-top: 8px;    
+}
+
+#booking .custom-input input {
+    width: 282px;
+    padding-left: 12px;
 }
 
 #booking .custom-input .btn-in-input {
+    display: block;
     background: #414b59;
     border-radius: 2px;
 }
@@ -107,14 +113,10 @@
     width: 138px;
 }
 
-#booking .select-wrapper p {
-    margin: 0;
-    margin-bottom: 10px;
-}
-
 #booking .select-wrapper select {
     width: 100%;
     height: 44px;
+    margin-top: 10px;
     border: 1px solid #e5e5e5;
     border-radius: 2px;
     padding: 5px 35px 5px 15px;
@@ -126,8 +128,14 @@
     font-weight: 500;
 }
 
+#booking .select-wrapper select::-ms-expand {
+    display: none;
+}
+
 #booking .btn-action {
-    margin-top: 38px;
+    margin-top: 40px;
+    padding: 0;
+    width: 296px;
     font-family: 'Gotham';
     font-weight: 500;
 }

@@ -60,8 +60,7 @@ button {
 }
 
 .custom-input input {   
-    height: 42px;
-    padding-left: 10px;
+    height: 42px;    
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     background: #f4f4f4;
