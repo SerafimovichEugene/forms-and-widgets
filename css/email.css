@@ -9,11 +9,11 @@
 
 #email .address-area {
     position: relative;
-    margin: 25px 25px 0 25px;
+    margin: 25px 0 0 25px;
     background: #f4f4f4;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
-    width: 330px;
+    width: 328px;
 }
 
 #email .addresses {
@@ -38,7 +38,7 @@
     height: 37px;
     max-width: 285px;
     line-height: 37px;
-    margin: 4px 0 4px 4px;
+    margin: 3px 0 2px 3px;
     font-size: 12pt;
     background: #404a58;
 }
@@ -71,19 +71,23 @@
 
 #email .subject {
     width: 330px;
-    margin: 25px 25px 0 25px;
+    margin: 22px 25px 0 25px;
     border: 0;
 }
 
+.custom-input input {
+    width: 318px;
+}
+
 #email .message {
-    margin: 25px 25px 0 25px;
+    margin: 26px 0 0 25px;
 }
 
 #email .message textarea {
-    width: 330px;
-    min-height: 223px;
+    width: 318px;
+    min-height: 209px;
     resize: vertical; 
-    padding: 14px;
+    padding: 14px 0 0 10px;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     background: #f4f4f4;
@@ -95,8 +99,8 @@
 
 #email button {
     float: right;
-    width: 126px;
+    width: 128px;
     height: 48px;
     color: #ffffff;
-    margin: 25px;
+    margin: 21px 24px 26px 21px;
 }

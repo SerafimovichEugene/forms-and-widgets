@@ -1,30 +1,30 @@
 function setDayOfWeek(days) {
     let columns = document.querySelectorAll('#bar-graph .columns .column');
-    columns.forEach((column) => {
+    for(let i = 0; i < columns.length; i++){
         for (var property in days) {
             if (days.hasOwnProperty(property)) {
-                if(column.children[0].className === ('inner-' + property)) {
+                if(columns[i].children[0].className === ('inner-' + property)) {
                     let height = 207*(days[property] / 100);
                     let realValue = 60*(days[property] / 100);
-                    column.firstElementChild.style.height = height;
-                    column.lastElementChild.style.marginBottom = height;
-                    column.lastElementChild.firstElementChild.innerHTML = Math.floor(realValue);
+                    columns[i].firstElementChild.setAttribute('style', 'height:' + [height] + 'px');
+                    columns[i].lastElementChild.setAttribute('style', 'margin-bottom:' + [height] + 'px');
+                    columns[i].lastElementChild.firstElementChild.innerHTML = Math.floor(realValue);
                 }
             }
-        }        
-    });
+        }
+    }
 }
 
-function showColumnValue() {
+function setColumnValueVisibility() {
     let columns = document.querySelectorAll('#bar-graph .columns .column');
-    columns.forEach((column) => {
-        column.firstElementChild.addEventListener('mouseenter', function(e){
+    for(let i = 0; i < columns.length; i++){
+        columns[i].firstElementChild.addEventListener('mouseenter', function(e){
             e.target.parentElement.lastElementChild.hidden = false;
         });
-        column.firstElementChild.addEventListener('mouseleave', function(e){
+        columns[i].firstElementChild.addEventListener('mouseleave', function(e){
             e.target.parentElement.lastElementChild.hidden = true;
         });
-    });
+    }    
 }
 
 let days = {
@@ -39,8 +39,9 @@ let days = {
 }
 
 window.addEventListener("load", function () {
-    showColumnValue();
+    setColumnValueVisibility();
     setTimeout(function () {
         setDayOfWeek(days);
     }, 500);
 });
+
