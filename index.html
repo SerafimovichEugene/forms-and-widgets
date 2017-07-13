@@ -19,12 +19,15 @@
      <div id="email" class="widget-shadow">
         <div class="address-area">
             <div class="add">
-                <a href="#"><i class="fa fa-plus vertically-horizontally-centered" aria-hidden="true"></i></a>
+                <a href="#" role="button">
+                    <span class="wcag-hidden">delete email</span>
+                    <i class="fa fa-plus vertically-horizontally-centered" aria-hidden="true"></i>
+                </a>
             </div>
             <div class="addresses">
                 <div class="address">
                     <a href="#" class="email-address">rick.james@mail.com</a>
-                    <a href="#" class="remove"><i class="fa fa-times" aria-hidden="true"></i></a>
+                    <a href="#" class="remove" role="button"><i class="fa fa-times" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -32,7 +35,7 @@
             <div class="custom-input">
                 <input id="subject" type="text" name="subject" placeholder="Subject">
                 <div class="btn-in-input vertically-centered">
-                    <a href="#"><img class="vertically-horizontally-centered" src="./img/attach.png" alt="attach icon"></a>
+                    <a href="#" role="button"><img class="vertically-horizontally-centered" src="./img/attach.png" alt="attach new subject"></a>
                 </div>
             </div>
         </div>
@@ -44,7 +47,8 @@
 
      <br> 
 
-    <div id="bar-graph" class="widget-shadow"> 
+    <div id="bar-graph" class="widget-shadow">
+        <span class="wcag-hidden">bar graph</span> 
         <div class="row">
             <p>60</p>
         </div>
@@ -120,19 +124,26 @@
     <br>
 
     <div id="destination" class="widget-shadow">
-        <ul>
-            <li class="active"><i class="fa fa-eye vertically-horizontally-centered" aria-hidden="true"></i></li>
-            <li><i class="fa fa-map-marker vertically-horizontally-centered" aria-hidden="true"></i></li>
-            <li><i class="fa fa-star vertically-horizontally-centered" aria-hidden="true"></i></li>
+        <ul role="lists of tabs">
+            <li class="active" role="list">
+                <a class="wcag-hidden">current tab, review</a>
+                <i class="fa fa-eye vertically-horizontally-centered" aria-hidden="true"></i>            
+            </li>
+            <li role="list">
+                <i class="fa fa-map-marker vertically-horizontally-centered" aria-hidden="true"></i>
+            </li>
+            <li role="list">
+                <i class="fa fa-star vertically-horizontally-centered" aria-hidden="true"></i>
+            </li>
         </ul>
         <div class="content-wrapper">
-            <div class="content">
+            <article class="content">
                 <h3>My most favourite place in the world</h3>
                 <p class='reviews'><span class='reviews-num'>154</span> Reviews</p>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ex voluptatum alias reprehenderit soluta, a
                     minus facere obcaecati placeat enim quae, totam aliquam perferendis</p>
                 <a href="#">Read more</a>
-            </div>
+            </article>
         </div>
         <div class="triangles">
             <div class="triangle">
@@ -162,7 +173,7 @@
 
     <div id="booking" class="widget-shadow">
         <div class="place">
-            <img src="./img/hotel relais.png" alt="hotel relais">
+            <img src="./img/hotel relais.png" alt="Paris, France, hotel relais, book hotel">
             <p class="name">Hotel Relais</p>
             <p class="where"><i class="fa fa-map-marker" aria-hidden="true"></i> Paris, France</p>
         </div>
@@ -217,9 +228,15 @@
 
     <div id="calendar" class="widget-shadow">
         <div class="top-panel">
-            <a href="" class="left-arrow vertically-centered"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+            <a href="#" class="left-arrow vertically-centered" role="button">
+                <span class="wcag-hidden">Previous month</span>
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </a>
             <span class="month vertically-horizontally-centered">May 2014</span>
-            <a href="" class="right-arrow vertically-centered"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            <a href="#" class="right-arrow vertically-centered" role="button">
+                <span class="wcag-hidden">Next Month</span>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
         </div>
         <div class='table'>
             <div class="days">

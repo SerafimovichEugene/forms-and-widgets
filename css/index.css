@@ -90,3 +90,13 @@ input:focus, textarea:focus, select:focus {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
+.wcag-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+

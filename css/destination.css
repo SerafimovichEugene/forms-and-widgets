@@ -53,9 +53,6 @@
 #destination .content {
     margin-left: 35px;
     margin-top: 25px;
-    /*white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;*/
 }
 
 #destination .content h3 {
