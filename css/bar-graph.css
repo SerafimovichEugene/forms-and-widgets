@@ -127,3 +127,7 @@
     border-width: 6px 6px 0 6px;
     border-color: #404a58 transparent transparent transparent;
 }
+
+#bar-graph .columns .wcag-hidden {
+    z-index: 999;
+}

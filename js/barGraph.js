@@ -9,6 +9,7 @@ function setDayOfWeek(days) {
                     columns[i].firstElementChild.setAttribute('style', 'height:' + [height] + 'px');
                     columns[i].lastElementChild.setAttribute('style', 'margin-bottom:' + [height] + 'px');
                     columns[i].lastElementChild.firstElementChild.innerHTML = Math.floor(realValue);
+                    columns[i].getElementsByClassName('wcag-hidden')[0].innerHTML = Math.floor(realValue);
                 }
             }
         }

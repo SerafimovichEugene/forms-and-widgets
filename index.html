@@ -48,7 +48,7 @@
      <br> 
 
     <div id="bar-graph" class="widget-shadow">
-        <span class="wcag-hidden">bar graph</span> 
+        <span class="wcag-hidden">graphic, legend, the number of actions vertically and the days of the week horizontally</span> 
         <div class="row">
             <p>60</p>
         </div>
@@ -64,6 +64,7 @@
         <div class="columns">
             <div class="column mon">
                 <div class="inner-mon"></div>
+                <span class="wcag-hidden"></span>
                 <p>Mon</p>
                 <div class="column-value" hidden>
                     <div class="column-value-mon"></div>
@@ -72,6 +73,7 @@
             </div>
             <div class="column tues">
                 <div class="inner-tues"></div>
+                <span class="wcag-hidden"></span>
                 <p>Tues</p>
                 <div class="column-value" hidden>
                     <div class="column-value-tues"></div>
@@ -80,6 +82,7 @@
             </div>
             <div class="column wed">
                 <div class="inner-wed"></div>
+                <span class="wcag-hidden"></span>
                 <p>Wed</p>
                 <div class="column-value" hidden>
                     <div class="column-value-wed"></div>
@@ -88,6 +91,7 @@
             </div>
             <div class="column thu">
                 <div class="inner-thu"></div>
+                <span class="wcag-hidden"></span>
                 <p>Thu</p>
                 <div class="column-value" hidden>
                     <div class="column-value-thu"></div>
@@ -96,6 +100,7 @@
             </div>
             <div class="column fri">
                 <div class="inner-fri"></div>
+                <span class="wcag-hidden"></span>
                 <p>Fri</p>
                 <div class="column-value" hidden>
                     <div class="column-value-fri"></div>
@@ -104,6 +109,7 @@
             </div>
             <div class="column sat">
                 <div class="inner-sat"></div>
+                <span class="wcag-hidden"></span>
                 <p>Sat</p>
                 <div class="column-value" hidden>
                     <div class="column-value-sat"></div>
@@ -112,6 +118,7 @@
             </div>
             <div class="column sun">
                 <div class="inner-sun"></div>
+                <span class="wcag-hidden"></span>
                 <p>Sun</p>
                 <div class="column-value" hidden>
                     <div class="column-value-sun"></div>
@@ -124,16 +131,27 @@
     <br>
 
     <div id="destination" class="widget-shadow">
-        <ul role="lists of tabs">
-            <li class="active" role="list">
-                <a class="wcag-hidden">current tab, review</a>
-                <i class="fa fa-eye vertically-horizontally-centered" aria-hidden="true"></i>            
+        <ul>
+            <li class="active">
+                <span class="wcag-hidden">view tab</span>                
+                <a href="#" aria-current="tab">
+                    <span class="wcag-hidden">press tab to switch to next bookmark</span>                    
+                    <i class="fa fa-eye vertically-horizontally-centered" aria-hidden="true"></i>  
+                </a>                          
             </li>
-            <li role="list">
-                <i class="fa fa-map-marker vertically-horizontally-centered" aria-hidden="true"></i>
+            <li>
+                <span class="wcag-hidden">map tab</span>
+                <a href="#" aria-current="tab">
+                    <span class="wcag-hidden">press tab to switch to next bookmark</span> 
+                    <i class="fa fa-map-marker vertically-horizontally-centered" aria-hidden="true"></i>
+                </a>
             </li>
-            <li role="list">
-                <i class="fa fa-star vertically-horizontally-centered" aria-hidden="true"></i>
+            <li>
+                <span class="wcag-hidden">usefull tab</span>
+                <a href="#" aria-current="tab">
+                    <span class="wcag-hidden">press tab to switch to next bookmark</span> 
+                    <i class="fa fa-star vertically-horizontally-centered" aria-hidden="true"></i>
+                </a>
             </li>
         </ul>
         <div class="content-wrapper">
@@ -183,7 +201,7 @@
                 <div class="custom-input">
                     <input id="checkIn" type="text" name="check_in" placeholder="9 July, 2016">
                     <button class="btn-in-input vertically-centered">
-                        <img class="vertically-horizontally-centered" src="./img/calendar icon.png" alt="calendar icon">
+                        <img class="vertically-horizontally-centered" src="./img/calendar icon.png" alt="check in">
                     </button>
                 </div>
             </fieldset>
@@ -192,7 +210,7 @@
                 <div class="custom-input">
                     <input id="checkOut" type="text" name="check_out" placeholder="16 July, 2016">
                     <button class="btn-in-input vertically-centered">
-                        <img class="vertically-horizontally-centered" src="./img/calendar icon.png" alt="calendar icon">
+                        <img class="vertically-horizontally-centered" src="./img/calendar icon.png" alt="check out">
                     </button>
                 </div>
             </fieldset>
